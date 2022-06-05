@@ -5,7 +5,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<WarningsAsErrors>nullable</WarningsAsErrors>
-		<PackageId>DrasticMicaAcrylicWindows</PackageId>
+		<PackageId>Drastic.MicaAcrylicWindows</PackageId>
 		<Authors>Drastic Actions</Authors>
 		<IncludeSymbols>true</IncludeSymbols>
 		<Version>1.1.0</Version>

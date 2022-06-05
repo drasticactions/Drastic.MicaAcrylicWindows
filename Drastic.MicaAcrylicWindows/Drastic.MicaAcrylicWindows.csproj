@@ -14,6 +14,7 @@
 		<Title>Drastic.MicaAcrylicWindows</Title>
 		<RepositoryUrl>https://github.com/drasticactions/Drastic.MicaAcrylicWindows</RepositoryUrl>
 		<PackageTags>WinUI; Acrylic; Mica</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<Description>Drastic.MicaAcrylicWindows is a simple WinUI Library for creating new Windows with a Acrylic or Mica background.</Description>
 	</PropertyGroup>
 
@@ -31,5 +32,9 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.WindowsAppSDK" Version="1.1.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\"/>
 	</ItemGroup>
 </Project>

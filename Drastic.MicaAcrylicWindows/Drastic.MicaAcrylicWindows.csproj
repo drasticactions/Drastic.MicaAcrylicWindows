@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0-windows10.0.19041.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<WarningsAsErrors>nullable</WarningsAsErrors>
+		<PackageId>DrasticMicaAcrylicWindows</PackageId>
+		<Authors>Drastic Actions</Authors>
+		<IncludeSymbols>true</IncludeSymbols>
+		<Version>1.1.0</Version>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Title>Drastic.MicaAcrylicWindows</Title>
+		<RepositoryUrl>https://github.com/drasticactions/Drastic.MicaAcrylicWindows</RepositoryUrl>
+		<PackageTags>WinUI; Acrylic; Mica</PackageTags>
+		<Description>Drastic.MicaAcrylicWindows is a simple WinUI Library for creating new Windows with a Acrylic or Mica background.</Description>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageIcon>icon.png</PackageIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="Images\icon.png" Pack="true" PackagePath=""/>
+	</ItemGroup>
+
+	<ItemGroup>
+		<AdditionalFiles Include="..\stylecop.json" Link="stylecop.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.WindowsAppSDK" Version="1.1.0" />
+	</ItemGroup>
+</Project>

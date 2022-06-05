@@ -1,0 +1,15 @@
+﻿<UserControl
+    x:Class="Drastic.MicaAcrylicWindows.Sample.TestControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Drastic.MicaAcrylicWindows.Sample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Button Margin="5" Name="CreateWindow" Click="CreateWindow_Click" Content="Create New Window"/>
+        <Button Margin="5" Name="CreateMicaWindow" Click="CreateMicaWindow_Click" Content="Create New Mica Window"/>
+        <Button Margin="5" Name="CreateAcrylicWindow" Click="CreateAcrylicWindow_Click" Content="Create New Acrylic Window"/>
+    </StackPanel>
+</UserControl>

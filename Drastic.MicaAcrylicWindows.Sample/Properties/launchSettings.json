@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Drastic.MicaAcrylicWindows.Sample (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Drastic.MicaAcrylicWindows.Sample (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
